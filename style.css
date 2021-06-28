@@ -1,0 +1,17 @@
+.black-outline {
+    border: 1px solid black;
+}
+.game-box-row {
+    display: flex;
+}
+.game-box-cell {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+.filled {
+    background-color: #ff0000;  
+}
+.empty {
+    background-color: #4c4d46;
+}
