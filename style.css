@@ -15,3 +15,9 @@
 .empty {
     background-color: #4c4d46;
 }
+.goodie {
+    background-color:lightskyblue;
+}
+.baddie {
+    background-color: darkred;
+}
