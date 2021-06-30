@@ -60,8 +60,9 @@ document.addEventListener('keydown', (event) => {
     var xcoordBad;
     var ycoordBad;
     var coordsBad = [];
+    var randomChance = Math.floor(Math.random() * 10);
 
-    if (moves % 2 == 0) {    // get the coordinates of the Baddie
+    if (randomChance % 2 == 0) {    // get the coordinates of the Baddie
         for (let i = 0; i <= gameState.length; i++) {
             xcoordBad = gameState[i].indexOf(2);
             if (xcoordBad != -1) {
